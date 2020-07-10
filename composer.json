@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourstore",
+    "description": "Store Locator Magento 2 extension is used to show your multiple stores on a map.",
+    "type": "magento2-module",
+    "version": "2.0.9",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourstore\\": ""
+        }
+    }
+}
